@@ -18,8 +18,8 @@ class Summary extends Component {
                 <textarea className="comments" placeholder="Observaciones"></textarea>
                 <br></br>
             
-            <Link to='/total'>
-            <BtnGreen btntext="ENVIAR" onClick={this.onClick} />
+            <Link to='/order_sent'>
+            <BtnGreen btntext="ENVIAR" onClick={this.onClick} ruta={'/order_sent'} />
             </Link>
             </div>
         );
